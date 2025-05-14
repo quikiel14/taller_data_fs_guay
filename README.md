@@ -20,7 +20,7 @@
 
 Taller conjunto Data & Full Stack
 
-Duración: 4h y media (dividido en dos sesiones de 2h y media y 2 horas)
+Duración: 3h y media (dividido en dos sesiones de 2h  y 1 hora y media)
 
 Objetivo del taller:
 - Fomentar la comunicación y colaboración entre alumnos de la verticales de Data y Full Stack
@@ -31,41 +31,42 @@ Objetivo del taller:
 
 Organización del taller:
 
-Sesión 1 (2h 30 min):
+Sesión 1 (2h):
 
-0. Introducción y presentación del taller (15 minutos)
+0. Introducción y presentación del taller (**10 minutos**)
    - Explicar el objetivo del taller
    - Presentar a los alumnos de ambas verticales
 
-1. Presentación de la base de datos y análisis exploratorio de datos (15 minutos)
+1. Presentación de la base de datos y análisis exploratorio de datos (**15 minutos**)
    - Mostrar la estructura y contenido de la base de datos de viviendas de alquiler
    - Realizar un análisis exploratorio de datos para identificar las principales características y variables relevantes
 
-2. Creación del modelo predictivo (1 hora)
+2. Creación del modelo predictivo (**45 minutos**)
    - Explicar el concepto de modelo predictivo
    - Utilizar bibliotecas de Python, como pandas y scikit-learn, para preprocesar datos y entrenar un modelo sencillo de regresión
    - Evaluar y mejorar el rendimiento del modelo
 
-3. Creación de la API en Python (1 hora)
+3. Creación de la API en Python (**50 minutos**)
    - Presentar el concepto de una API y su importancia en la comunicación entre Data y Full Stack
    - Utilizar el framework Flask para crear una API básica en Python
    - Definir las rutas y los endpoints necesarios para recibir inputs y devolver un output basado en el modelo predictivo
 
-Sesión 2 (2 horas):
+Sesión 2 (1 hora 30 min):
 
-4. Introducción al desarrollo con React (15 minutos)
+4. Introducción al desarrollo con React (**10 minutos**)
    - Explicar los conceptos básicos de React
    - Mostrar ejemplos de componentes y cómo se estructura una aplicación
 
-5. Creación de la app con React (1 hora y 30 minutos)
+5. Creación de la app con React (**65 minutos**)
    - Configurar un proyecto de React utilizando Create React App
    - Crear componentes de interfaz de usuario para mostrar un formulario con las características necesarias para obtener un precio de alquiler
    - Utilizar fetch para llamar a los endpoints de la API y mostrar el resultado en la interfaz de usuario de la app
 
-6. Pruebas y puesta en común (15 minutos)
+6. Pruebas y puesta en común (**15 minutos**)
    - Realizar pruebas de funcionalidad de la app y de la API
    - Compartir los resultados e intercambiar opiniones entre los alumnos de Data y Full Stack
    - Recabar feedback y sugerencias para mejorar el proyecto conjunto
+
 
 ## 1. Presentación de la base de datos y análisis exploratorio de datos
 
