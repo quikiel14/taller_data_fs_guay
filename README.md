@@ -18,20 +18,20 @@
   - [6. Pruebas y puesta en común](#6-pruebas-y-puesta-en-común)
   - [7. Bonus: Devolver una gráfica con los resultados para múltiples inputs](#7-bonus-devolver-una-gráfica-con-los-resultados-para-múltiples-inputs)
 
-Taller conjunto Data & Full Stack
+## Taller conjunto Data & Full Stack
 
 Duración: 3h y media (dividido en dos sesiones de 2h  y 1 hora y media)
 
-Objetivo del taller:
+### Objetivo del taller:
 - Fomentar la comunicación y colaboración entre alumnos de las verticales de Data y Full Stack
 - Preparar a los alumnos para el proyecto conjunto al finalizar el curso
 - Generar un modelo predictivo sencillo utilizando una base de datos de viviendas de alquiler
 - Crear una API en Python que reciba inputs y devuelva un output basado en el modelo predictivo
 - Desarrollar una app sencilla con React que llame a la API y muestre los resultados del modelo predictivo en función de los inputs del usuario
 
-Organización del taller:
+### Organización del taller:
 
-Sesión 1 (2h):
+#### Sesión 1 (2h):
 
 0. Introducción y presentación del taller (**10 minutos**)
    - Explicar el objetivo del taller
@@ -51,7 +51,7 @@ Sesión 1 (2h):
    - Utilizar el framework Flask para crear una API básica en Python
    - Definir las rutas y los endpoints necesarios para recibir inputs y devolver un output basado en el modelo predictivo
 
-Sesión 2 (1 hora 30 min):
+#### Sesión 2 (1 hora 30 min):
 
 4. Introducción al desarrollo con React (**10 minutos**)
    - Explicar los conceptos básicos de React
@@ -66,7 +66,6 @@ Sesión 2 (1 hora 30 min):
    - Realizar pruebas de funcionalidad de la app y de la API
    - Compartir los resultados e intercambiar opiniones entre los alumnos de Data y Full Stack
    - Recabar feedback y sugerencias para mejorar el proyecto conjunto
-
 
 ## 1. Presentación de la base de datos y análisis exploratorio de datos
 
