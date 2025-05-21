@@ -3,6 +3,7 @@
 ## Índice
 
 - [Taller conjunto Data & Full Stack](#taller_data_fs)
+  - [0. Puesta en marcha con Docker](#0-puesta-en-marcha-con-docker)
   - [1. Presentación de la base de datos y análisis exploratorio de datos](#1-presentación-de-la-base-de-datos-y-análisis-exploratorio-de-datos)
     - [1.1. Presentación de la base de datos](#11-presentación-de-la-base-de-datos)
     - [1.2. Análisis exploratorio de datos](#12-análisis-exploratorio-de-datos)
@@ -66,6 +67,40 @@ Duración: 3h y media (dividido en dos sesiones de 2h  y 1 hora y media)
    - Realizar pruebas de funcionalidad de la app y de la API
    - Compartir los resultados e intercambiar opiniones entre los alumnos de Data y Full Stack
    - Recabar feedback y sugerencias para mejorar el proyecto conjunto
+
+## 0. Puesta en marcha con Docker
+
+Para poder analizar los datos y generar los modelos y la API, dispondréis de un docker-compose.yml que pone en marcha el notebook y una API de Python en contenedores de Docker.
+Para levantar los contenedores, ejecutéis el siguiente comando:
+```bash
+docker-compose up -d
+```
+Esto levantará los contenedores y los pondrá a disposición en el puerto 8888 para el notebook y en el puerto 5000 para la API.
+Para mantener la dockerización de la aplicación, habrá que respetar la estructura de directorios:
+- **./api**: Contiene el código de la API en Python
+- **./client**: Contiene el código de la app en React
+- **./notebooks**: Contiene el notebook de Jupyter con los datos y el código de preprocesamiento y entrenamiento del modelo
+Podemos observar los logs de los contenedores con los siguientes comandos (se puede añadir el flag `-f` para seguir los logs en tiempo real):
+```bash
+docker logs taller_notebook # logs del notebook
+```
+```bash
+docker logs taller_api # logs de la API
+```
+### 0.1. Notebook
+Para acceder al notebook, necesitamos el código que jupyter nos proporciona. Podemos verlo en los logs del contenedor ejecutando el comando anterior.
+Encontraréis el notebook en la siguiente URL:
+```bash
+http://localhost:8888
+```
+
+### 0.2. API
+La API se creará en el archivo `app.py` dentro de la carpeta `api`. En este archivo, se define la API y se configuran las rutas y los endpoints necesarios para recibir inputs y devolver outputs basados en el modelo predictivo.
+Para acceder a la API, abrid el navegador y acceded a la siguiente URL:
+```bash
+http://localhost:5000
+```
+
 
 ## 1. Presentación de la base de datos y análisis exploratorio de datos
 
@@ -293,12 +328,12 @@ Si no tienes Node.js y npm instalados, puedes descargarlos e instalarlos desde e
 Una vez que tenemos Node.js y npm instalados, podemos crear una nueva aplicación de React utilizando Create React App. Desde la línea de comandos, ejecutamos el siguiente comando:
 
 ```bash
-$ npm create vite housing-app
-$ cd housing-app
+$ cd client
+$ npm create vite .
 $ npm install
 ```
-
-Esto creará una nueva carpeta llamada `housing-app` con una plantilla de aplicación de React preconfigurada.
+Escogemos `React`y `JavaScript` en el prompt.
+Esto creará una plantilla de aplicación de React preconfigurada en el directorio actual (`./client`).
 
 Una vez que la aplicación se haya creado correctamente, podemos iniciar el servidor de desarrollo con el siguiente comando:
 
