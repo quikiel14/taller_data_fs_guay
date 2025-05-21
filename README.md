@@ -1,4 +1,4 @@
-# taller_data_fs
+# Taller conjunto Data & Full Stack
 
 ## Índice
 
@@ -23,7 +23,7 @@ Taller conjunto Data & Full Stack
 Duración: 3h y media (dividido en dos sesiones de 2h  y 1 hora y media)
 
 Objetivo del taller:
-- Fomentar la comunicación y colaboración entre alumnos de la verticales de Data y Full Stack
+- Fomentar la comunicación y colaboración entre alumnos de las verticales de Data y Full Stack
 - Preparar a los alumnos para el proyecto conjunto al finalizar el curso
 - Generar un modelo predictivo sencillo utilizando una base de datos de viviendas de alquiler
 - Crear una API en Python que reciba inputs y devuelva un output basado en el modelo predictivo
@@ -72,7 +72,7 @@ Sesión 2 (1 hora 30 min):
 
 ### 1.1. Presentación de la base de datos
 
-La base de datos que vamos a utilizar en este taller contiene información sobre viviendas de alquiler en 50 provincias en octubre del 2022. Se encuentra en el archivo housing.csv que hemos tenido que comprimir en un archivo zip para poder subirlo a GitHub. Para poder utilizarlo, primero tenemos que descomprimirlo.
+La base de datos que vamos a utilizar en este taller contiene información sobre viviendas de alquiler en 50 provincias en octubre del 2022. Se encuentra en el archivo housing.csv que se ha comprimido en un archivo .zip para facilitar su subida a GitHub. Para poder utilizarlo, primero tenemos que descomprimirlo.
 
 La base de datos contiene las siguientes variables:
 
@@ -84,7 +84,7 @@ La base de datos contiene las siguientes variables:
 - **restrooms**: número de baños
 - **features**: lista de características de la vivienda
 - **description**: descripción del anuncio
-- **rent** : 1 si es un alquiler, 0 si es una venta
+- **rent**: 1 si es un alquiler, 0 si es una venta
 - **location_name**: nombre de la provincia o ciudad
 - **is_province**: 1 si es una provincia, 0 si es una ciudad
 
