@@ -2,9 +2,9 @@ version: '3'
 
 services:    
   api:
-    build: ./api
+    build: ./API_Data
     container_name: taller_api
     ports:
       - 5000:5000
     volumes:
-      - ./api:/app
+      - ./API_Data:/app
