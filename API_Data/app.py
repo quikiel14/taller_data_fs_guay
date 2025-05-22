@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 cors = CORS(app)
 
-os.chdir("C:\\Users\\Aggelos\\BootcampDataScience\\AngelosTheBridge\\Taller")
+# os.chdir("C:\\Users\\Aggelos\\BootcampDataScience\\AngelosTheBridge\\Taller")
 
 @app.route('/')
 def home():

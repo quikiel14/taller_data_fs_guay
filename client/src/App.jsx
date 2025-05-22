@@ -9,7 +9,7 @@ function App() {
 
   return(
     <>
-      <h1>hola</h1>
+      <h1>Housing Price Prediction</h1>
       <Form/>
     </>
   )
